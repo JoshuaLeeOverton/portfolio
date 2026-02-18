@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "description": "A monorepo built with nx to showcase some of the technologies I've got experience in, test new technologies and experiment. The focus is on ensuring cross-framework compatibility and a unified design language.",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "nx": "catalog:"
+  }
+}
