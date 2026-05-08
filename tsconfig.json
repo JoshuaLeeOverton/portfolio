@@ -4,10 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/notes-e2e"
+      "path": "./apps/notes/app"
     },
     {
-      "path": "./apps/notes"
+      "path": "./apps/notes/e2e"
+    },
+    {
+      "path": "./ui"
+    },
+    {
+      "path": "./libs/ui"
     }
   ]
 }

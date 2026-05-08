@@ -1,0 +1,11 @@
+{
+  "name": "@portfolio/notes-app",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@portfolio/ui": "workspace:*"
+  },
+  "nx": {
+    "projectType": "application"
+  }
+}

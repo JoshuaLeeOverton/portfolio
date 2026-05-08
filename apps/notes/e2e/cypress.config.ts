@@ -6,10 +6,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'pnpm exec nx run @portfolio/notes:dev',
-        production: 'pnpm exec nx run @portfolio/notes:dev',
+        default: 'pnpm exec nx run @portfolio/notes-app:dev',
+        production: 'pnpm exec nx run @portfolio/notes-app:dev',
       },
-      ciWebServerCommand: 'pnpm exec nx run @portfolio/notes:dev',
+      ciWebServerCommand: 'pnpm exec nx run @portfolio/notes-app:dev',
       ciBaseUrl: 'http://localhost:4200',
     }),
     baseUrl: 'http://localhost:4200',

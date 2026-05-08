@@ -4,13 +4,13 @@ import { reactRouter } from '@react-router/dev/vite';
 
 export default defineConfig(() => ({
   root: import.meta.dirname,
-  cacheDir: '../../node_modules/.vite/apps/notes',
+  cacheDir: '../../../node_modules/.vite/apps/notes/app',
   server: {
-    port: 4200,
+    port: 3000,
     host: 'localhost',
   },
   preview: {
-    port: 4300,
+    port: 3000,
     host: 'localhost',
   },
   plugins: [!process.env.VITEST && reactRouter()],
@@ -27,7 +27,7 @@ export default defineConfig(() => ({
     },
   },
   test: {
-    name: '@portfolio/notes',
+    name: '@portfolio/notes-app',
     watch: false,
     globals: true,
     environment: 'jsdom',
