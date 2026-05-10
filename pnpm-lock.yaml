@@ -280,6 +280,9 @@ importers:
 
   apps/notes/notes-app:
     dependencies:
+      '@portfolio/ui':
+        specifier: workspace:*
+        version: link:../../../libs/ui
       react:
         specifier: catalog:react-stack
         version: 19.2.6

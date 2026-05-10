@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "catalog:react-stack",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@portfolio/ui": "workspace:*"
   },
   "nx": {
     "projectType": "application",
