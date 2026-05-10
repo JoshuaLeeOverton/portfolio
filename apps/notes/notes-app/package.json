@@ -3,8 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "react": "catalog:react-stack",
-    "react-dom": "^19.0.0",
     "@portfolio/ui": "workspace:*"
   },
   "nx": {
