@@ -7,6 +7,9 @@
     "react-dom": "^19.0.0"
   },
   "nx": {
-    "projectType": "application"
+    "projectType": "application",
+    "tags": [
+      "type:app"
+    ]
   }
 }
