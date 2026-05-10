@@ -1,0 +1,10 @@
+{
+  "name": "@portfolio/bookshelf-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@portfolio/bookshelf-app"
+    ]
+  }
+}

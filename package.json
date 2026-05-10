@@ -4,14 +4,6 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {
-    "@react-router/node": "catalog:react-stack",
-    "@react-router/serve": "catalog:react-stack",
-    "isbot": "catalog:react-stack",
-    "react": "catalog:react-stack",
-    "react-dom": "catalog:react-stack",
-    "react-router": "catalog:react-stack"
-  },
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
@@ -25,7 +17,6 @@
     "@nx/vitest": "catalog:nx-suite",
     "@nx/web": "catalog:nx-suite",
     "@nx/workspace": "catalog:nx-suite",
-    "@react-router/dev": "catalog:react-stack",
     "@swc-node/register": "catalog:compilers",
     "@swc/cli": "catalog:compilers",
     "@swc/core": "catalog:compilers",
@@ -36,6 +27,7 @@
     "@types/react": "catalog:types",
     "@types/react-dom": "catalog:types",
     "@vitejs/plugin-react": "catalog:vite-plugins",
+    "@vitejs/plugin-react-swc": "^4.3.0",
     "@vitest/coverage-v8": "catalog:testing",
     "@vitest/ui": "catalog:testing",
     "cypress": "catalog:testing",
@@ -56,5 +48,9 @@
     "vite": "catalog:vite-plugins",
     "vite-plugin-dts": "~4.5.0",
     "vitest": "catalog:testing"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }

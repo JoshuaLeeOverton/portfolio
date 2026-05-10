@@ -4,16 +4,16 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/notes/app"
+      "path": "./apps/notes/notes-e2e"
     },
     {
-      "path": "./apps/notes/e2e"
+      "path": "./apps/notes/notes-app"
     },
     {
-      "path": "./ui"
+      "path": "./apps/bookshelf/bookshelf-e2e"
     },
     {
-      "path": "./libs/ui"
+      "path": "./apps/bookshelf/bookshelf-app"
     }
   ]
 }
