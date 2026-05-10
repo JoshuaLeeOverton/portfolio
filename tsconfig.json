@@ -14,6 +14,9 @@
     },
     {
       "path": "./apps/bookshelf/bookshelf-app"
+    },
+    {
+      "path": "./libs/ui"
     }
   ]
 }
