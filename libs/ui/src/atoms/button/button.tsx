@@ -1,13 +1,9 @@
-import styles from './button.module.css'
+import { styled, Button as MuiButton, ButtonProps } from "@mui/material";
 
-type ButtonProps=  {
-  label: string
-}
+const StyledButton = styled(MuiButton)<ButtonProps>(({ theme }) => ({}));
 
-export function Button({label}: ButtonProps) {
-  return (
-    <button className={styles['btn']}>{label}</button>
-  );
+export function Button(props: ButtonProps) {
+  return <StyledButton {...props}/>
 }
 
 export default Button;
